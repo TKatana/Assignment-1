@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services - Hotel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <a href="index.html">INDEPENDENT INT. HOTEL</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html" style="background-color: rgb(97, 177, 114);">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Our Services</h1>
+    </header>
+
+    <div class="grid-container">
+        <p>We offer a wide range of services including spa, fine dining, concierge, and luxurious accommodations.</p>
+        <p>Book your stay today and enjoy our premium amenities.</p>
+        <img src="img/spa service.jpg" alt="Spa Service">
+        <img src="img/fine dining.webp" alt="Fine Dining">
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Independent Internation Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

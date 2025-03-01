@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-content">
+          <div class="logo">
+            <a href="index.html">INDEPENDENT INT. HOTEL</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html" style="background-color: rgb(97, 177, 114);">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Welcome to Our Hotel</h1>
+    </header>
+
+    <div class="grid-container">
+        <p>Experience luxury and comfort in the heart of the city. Our hotel provides world-class amenities and services to make your stay unforgettable.</p>
+        <p>From elegant rooms to gourmet dining, we ensure you have a relaxing and enriching stay. Visit our <a href="services.html">Services</a> page to learn more.</p>
+        <img src="img/istockphoto-119926339-612x612.jpg" alt="Luxury Hotel">
+        <img src="img/hotel lounge.jpg" alt="Hotel Lobby">
+    </div>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; <span id="year"></span> Independent Internation Hotel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
